@@ -11,7 +11,8 @@ public class TesteCalculadora {
        calc.calc(3, 5, "*") ;  // Esperado: 15       
        calc.calc(8, 2, "/") ;  // Esperado: 4
        calc.calc(8, 0, "/") ; // Esperado: Erro divisão por zero         
-       calc.calc(5, 5, "%") ;  // Esperado: Operação inválida
+       calc.calc(5, 5, "x") ;  // Esperado: Operação inválida
 
      }
+
 }
